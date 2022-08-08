@@ -1,13 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="admin-style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   <title>Admin Dashboard</title>
 </head>
+
 <body>
-  <p>testing 123</p>
+  <div class="container">
+    <div class="sidebar">
+      <ul class="menu-options">
+        <li class="menu-header"> <a href="#"><img src="/images/icons/view-dashboard-outline.svg" alt=""
+              class="logo-icon"></a> Dashboard</li>
+        <li class="menu-items"><a href="#"><img src="/images/icons/home.svg" class="sidebar-icons" alt="home"> Home</a>
+        </li>
+        <li class="menu-items"><a href="#"> <img src="/images/icons/card-account-details-outline.svg" alt="profile"
+              class="sidebar-icons"> Profile</a></li>
+        <li class="menu-items"><a href="#"> <img src="/images/icons/message-reply.svg" alt="messages"
+              class="sidebar-icons"> Messages</a></li>
+        <li class="menu-items"><a href="#"> <img src="/images/icons/clock-time-three-outline.svg" alt="history"
+              class="sidebar-icons"> History</a></li>
+        <li class="menu-items"><a href="#"> <img src="/images/icons/note-multiple-outline.svg" alt="tasks"
+              class="sidebar-icons"> Tasks</a></li>
+        <li class="menu-items"><a href="#"> <img src="/images/icons/account-group.svg" alt="communities"
+              class="sidebar-icons"> Communities</a></li>
+        <div class="lower-menu">
+          <li class="menu-items"><a href="#"> <img src="/images/icons/cog.svg" alt="support" class="sidebar-icons">
+              Settings</a></li>
+          <li class="menu-items"><a href="#"> <img src="/images/icons/help-box.svg" alt="" class="sidebar-icons">
+              Support</a></li>
+          <li class="menu-items"><a href="#"> <img src="/images/icons/shield-check-outline.svg" alt="privacy"
+                class="sidebar-icons"> Privacy</a></li>
+        </div>
+      </ul>
+    </div>
+    <div class="top-nav">
+      <ul class="nav-options">
+        <li class="nav-items">
+          <img src="/images/icons/magnify.svg" alt="search" class="other-icons">
+        </li>
+        <li><input type="search" name="search" id="search"></li>
+        <li class="nav-items"><img src="/images/icons/bell-ring-outline.svg" alt="alert" class="other-icons"></li>
+        <li class="nav-items">Morgan Oakley</li>
+        <li class="nav-items">
+          <h4>Hi there,</h4>
+          <h1>Morgan Oakley (@morgan)</h1>
+        </li>
+        <li class="nav-items"><input type="button" value="new"></li>
+        <li class="nav-items"><input type="button" value="upload"></li>
+        <li class="nav-items"><input type="button" value="share"></li>
+      </ul>
+    </div>
+    <div class="project">
+      <h2>Your Projects</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Super Cool Project</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua.</p>
+          <p class="card-links">
+            <a href="#"><img src="/images/icons/star-plus-outline.svg" alt="star" class="other-icons"></a>
+            <a href="#"><img src="/images/icons/eye-plus-outline.svg" alt="save" class="other-icons"></a>
+            <a href="#"><img src="/images/icons/share-variant-outline.svg" alt="share" class="other-icons"></a>
+          </p>
+        </div>
+        <div class="card">
+          <h3>Less Cool Project</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua.</p>
+          <p class="card-links">
+            <a href="#"><img src="/images/icons/star-plus-outline.svg" alt="star" class="other-icons"></a>
+            <a href="#"><img src="/images/icons/eye-plus-outline.svg" alt="save" class="other-icons"></a>
+            <a href="#"><img src="/images/icons/share-variant-outline.svg" alt="share" class="other-icons"></a>
+          </p>
+        </div>
+        <div class="card">
+          <h3>Impossible App</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua.</p>
+          <p class="card-links">
+            <a href="#"><img src="/images/icons/star-plus-outline.svg" alt="star" class="other-icons"></a>
+            <a href="#"><img src="/images/icons/eye-plus-outline.svg" alt="save" class="other-icons"></a>
+            <a href="#"><img src="/images/icons/share-variant-outline.svg" alt="share" class="other-icons"></a>
+          </p>
+        </div>
+        <div class="card">
+          <h3>Easy Peasy App</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua.</p>
+          <p class="card-links">
+            <a href="#"><img src="/images/icons/star-plus-outline.svg" alt="star" class="other-icons"></a>
+            <a href="#"><img src="/images/icons/eye-plus-outline.svg" alt="save" class="other-icons"></a>
+            <a href="#"><img src="/images/icons/share-variant-outline.svg" alt="share" class="other-icons"></a>
+          </p>
+        </div>
+        <div class="card">
+          <h3>Ad Blocker</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua.</p>
+          <p class="card-links">
+            <a href="#"><img src="/images/icons/star-plus-outline.svg" alt="star" class="other-icons"></a>
+            <a href="#"><img src="/images/icons/eye-plus-outline.svg" alt="save" class="other-icons"></a>
+            <a href="#"><img src="/images/icons/share-variant-outline.svg" alt="share" class="other-icons"></a>
+          </p>
+        </div>
+        <div class="card">
+          <h3>Money Maker</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua.</p>
+          <p class="card-links">
+            <a href="#"><img src="/images/icons/star-plus-outline.svg" alt="star" class="other-icons"></a>
+            <a href="#"><img src="/images/icons/eye-plus-outline.svg" alt="save" class="other-icons"></a>
+            <a href="#"><img src="/images/icons/share-variant-outline.svg" alt="share" class="other-icons"></a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="right-section">
+      <h2>Annoucements</h2>
+      <div class="announcements">
+        <div class="announce-items">
+          <h4>Site Maintenance</h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit
+        </div>
+        <div class="announce-items">
+          <h4>Community Share Day</h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit
+        </div>
+        <div class="announce-items">
+          <h4>Updated Privacy Policy</h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit
+        </div>
+      </div>
+      <h2>Trending</h2>
+      <div class="trending">
+        <div class="trend-items">@tegan World Peace Builder</div>
+        <div class="trend-items">@morgan Super Cool Project</div>
+        <div class="trend-items">@kendall Life Changing App</div>
+        <div class="trend-items">@alex No Traffic Maker</div>
+      </div>
+    </div>
+  </div>
 </body>
+
 </html>
